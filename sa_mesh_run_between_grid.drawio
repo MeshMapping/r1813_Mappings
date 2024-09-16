@@ -1,0 +1,304 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.14">
+  <diagram name="Page-1" id="10xUOoZB6ZYBFLNR_NRF">
+    <mxGraphModel dx="1666" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7oljmgm_8Q_aeO7kgqim-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.59910660409037" y="605.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oljmgm_8Q_aeO7kgqim-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7oljmgm_8Q_aeO7kgqim-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.0889" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wEJVVZ1OubtGXcDkp_JM-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364.8415789473686" y="628.688622754491" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-1" value="sa_mesh_run_between_grid.f90" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;" parent="1" vertex="1">
+          <mxGeometry x="350" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-47" target="R1kGHZNwcuePNn_4owBy-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-47" value="&lt;b&gt;run_within_grid_stas_basin_update&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="103.53000000000002" y="1150" width="227.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.523;exitY=0.92;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-56" target="R1kGHZNwcuePNn_4owBy-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217.32777777777787" y="1400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-49" value="Assigns basin array variables (vs%basin%*) to a fraction (shd%FRAC) of grid variables (vs%grid%*)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="114.79000000000003" y="1430" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R1kGHZNwcuePNn_4owBy-51" target="R1kGHZNwcuePNn_4owBy-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-51" value="Divinding basin array values by a fraction (frac) value:&lt;br&gt;vs%basin%fsin = vs%basin%fsin/frac" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="108.07000000000004" y="1810" width="218.43" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-52" value="end subroutine" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="157.28000000000006" y="1902" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-53" value="end subroutine" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="157.28000000000006" y="1902" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-55" target="R1kGHZNwcuePNn_4owBy-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-55" value="Initialize variables and parameters e.g. fls, shd, cm, etc." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150.23210526315785" y="1239.998982035928" width="134.10526315789477" height="56.40718562874251" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-56" value="head node and&amp;nbsp;&lt;div&gt;ro%RUNGRID == True&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="133.03000000000003" y="1320" width="168.5" height="83.59" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-57" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="71.08" y="1550" width="278.92" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="R1kGHZNwcuePNn_4owBy-57" vertex="1">
+          <mxGeometry x="10" width="268.92" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="R1kGHZNwcuePNn_4owBy-57" source="R1kGHZNwcuePNn_4owBy-60" target="R1kGHZNwcuePNn_4owBy-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-60" value="Updating basin array values&lt;div&gt;e.g. a&lt;span style=&quot;background-color: initial;&quot;&gt;dds the value at index &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;i&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; to the value at index &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;ii = shd%NEXT(i)&lt;br&gt;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="R1kGHZNwcuePNn_4owBy-57" vertex="1">
+          <mxGeometry x="63.09000000000009" y="30" width="169.37" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-61" value="Updating relative area function:&lt;div&gt;frac(ii) = frac(ii) + frac(i)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="R1kGHZNwcuePNn_4owBy-57" vertex="1">
+          <mxGeometry x="63.09000000000003" y="140" width="166.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-62" value="do i = 1, shd%NAA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="R1kGHZNwcuePNn_4owBy-57" vertex="1">
+          <mxGeometry y="10" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R1kGHZNwcuePNn_4owBy-49" target="R1kGHZNwcuePNn_4owBy-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R1kGHZNwcuePNn_4owBy-61" target="R1kGHZNwcuePNn_4owBy-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-65" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="6.2" y="70" width="393.8" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="R1kGHZNwcuePNn_4owBy-65" vertex="1">
+          <mxGeometry width="393.8" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-67" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Dependencies&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\reservoir_update\module_reservoir.f90: subroutine init_reservoirs&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\WatRoute_old\WF_ROUTE_config.f90: WF_ROUTE_init&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\RPN_watroute\sa_mesh_process\rte_module.f90: run_rte_init&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Modules\cropland_irrigation\cropland_irrigation_between_grid.f90: runci_between_grid_init&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Driver\MESH_Driver\sa_mesh_run_between_grid.f90: run_within_grid_stas_basin_update&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\WatRoute_old\WF_ROUTE_module.f90: WF_ROUTE_between_grid&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Driver\MESH_Driver\sa_mesh_run_between_grid.f90: run_within_grid_stas_basin_update&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Driver\MESH_Driver\output_variables.f90: output_variables_update&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\WatRoute_old\WF_ROUTE_config.f90: WF_ROUTE_finalize&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\RPN_watroute\sa_mesh_process\rte_module.f90: run_rte_finalize&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="R1kGHZNwcuePNn_4owBy-65" vertex="1">
+          <mxGeometry x="9.086935" width="374.868065" height="155.67567567567568" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="499.27063563899674" y="1210.6077348066299" width="183.07103857046917" height="407.7513812154696" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="R1kGHZNwcuePNn_4owBy-3" source="R1kGHZNwcuePNn_4owBy-5" target="R1kGHZNwcuePNn_4owBy-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80.214020847324" y="85.64640883977901" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-5" value="&lt;b&gt;run_between_grid_finalize&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="R1kGHZNwcuePNn_4owBy-3" vertex="1">
+          <mxGeometry x="5.058541855236648" width="152.23802154807436" height="55.85635359116022" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="R1kGHZNwcuePNn_4owBy-3" source="R1kGHZNwcuePNn_4owBy-7" target="R1kGHZNwcuePNn_4owBy-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-7" value="Call processes:&lt;div&gt;&lt;div&gt;WF_ROUTE_finalize&amp;nbsp;(fls, shd)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;run_rte_finalize&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(fls, shd)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFE599;" parent="R1kGHZNwcuePNn_4owBy-3" vertex="1">
+          <mxGeometry x="-11.50456947648106" y="251.353591160221" width="168.80113287979205" height="74.47513812154696" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-8" value="end subroutine" style="whiteSpace=wrap;html=1;rounded=1;" parent="R1kGHZNwcuePNn_4owBy-3" vertex="1">
+          <mxGeometry x="15.079272387514955" y="351.8950276243094" width="115.62381383398052" height="55.85635359116022" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="R1kGHZNwcuePNn_4owBy-3" source="R1kGHZNwcuePNn_4owBy-10" target="R1kGHZNwcuePNn_4owBy-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-10" value="Initialize variables and parameters e.g. fls, shd, cm, etc." style="rounded=1;whiteSpace=wrap;html=1;" parent="R1kGHZNwcuePNn_4owBy-3" vertex="1">
+          <mxGeometry x="17.056541028474054" y="86.77189764118168" width="129.21468317937826" height="52.51166175935422" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-11" value="head node and&amp;nbsp;&lt;div&gt;ro%RUNGRID == True&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="R1kGHZNwcuePNn_4owBy-3" vertex="1">
+          <mxGeometry y="161.2479834254144" width="162.35510525854764" height="77.81720994475138" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.557;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="R1kGHZNwcuePNn_4owBy-3" source="R1kGHZNwcuePNn_4owBy-11" target="R1kGHZNwcuePNn_4owBy-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-15" target="R1kGHZNwcuePNn_4owBy-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-15" value="&lt;b&gt;run_between_grid&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="512.0411194487431" y="174.9227624309392" width="134.8944494729773" height="37.23756906077348" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-17" target="R1kGHZNwcuePNn_4owBy-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-17" value="Initialize variables and parameters e.g. fls, shd, cm, etc." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="514.885566693457" y="235.4328644920104" width="129.21468317937828" height="52.51166175935422" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-18" target="R1kGHZNwcuePNn_4owBy-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581.0390465415051" y="410.42276243093914" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-18" value="head node and&amp;nbsp;&lt;div&gt;ro%RUNGRID == True&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="498.31079155595785" y="309.9089502762431" width="162.35510525854767" height="77.81720994475138" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R1kGHZNwcuePNn_4owBy-20" target="R1kGHZNwcuePNn_4owBy-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-20" value="read reservoir release values (fms%rsvr) if exists" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="513.6177981838886" y="410.4214917127072" width="141.14777073783173" height="58.09991712707182" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-22" target="R1kGHZNwcuePNn_4owBy-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583.693629386468" y="577.4412983425414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-22" value="read observed streamflow values (fms%stmg) if exists" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="513.6177981838886" y="496.44958563535914" width="141.14777073783173" height="55.85635359116022" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-25" target="R1kGHZNwcuePNn_4owBy-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="582.5103205933019" y="1023.0768508287294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-25" value="&lt;div&gt;Call processes:&lt;/div&gt;&lt;div&gt;SA_RTE(shd)&lt;br&gt;&lt;/div&gt;&lt;div&gt;WF_ROUTE_between_grid(fls, shd)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; run_rte_between_grid&amp;nbsp;(fls, shd)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; runci_between_grid&amp;nbsp;(fls, shd,cm)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFE599;" parent="1" vertex="1">
+          <mxGeometry x="470.86589301877433" y="760.0027348066299" width="226.66121638587984" height="111.71270718232044" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-27" target="R1kGHZNwcuePNn_4owBy-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-27" value="call run_within_grid_stas_basin_update (fls, shd,cm):&lt;div&gt;update basin variables&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#CCFFCC;" parent="1" vertex="1">
+          <mxGeometry x="453.0405550527023" y="899.6436187845304" width="262.31189231802387" height="74.47513812154696" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-28" value="end subroutine" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="525.58" y="1085.83" width="111.17" height="34.17" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R1kGHZNwcuePNn_4owBy-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684.2881827206634" y="615.1443370165745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-114" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-31" target="R1kGHZNwcuePNn_4owBy-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-31" value="&lt;div&gt;ro%RUNLSS == True&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="512.0376060614908" y="580.2341160220993" width="142.72796286022947" height="69.82044198895028" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R1kGHZNwcuePNn_4owBy-33" target="R1kGHZNwcuePNn_4owBy-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-33" value="call output_variables_update(shd):&lt;div&gt;update output variables&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#CCFFCC;" parent="1" vertex="1">
+          <mxGeometry x="484.6347621828375" y="1002.0469337016575" width="197.52401529971675" height="55.85635359116022" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-45" value="Update grid variables" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="684.2881827206634" y="594.1982044198894" width="112.2418172793366" height="37.23756906077348" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-115" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R1kGHZNwcuePNn_4owBy-111" target="R1kGHZNwcuePNn_4owBy-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-111" value="if (run_div)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="514.6240465415049" y="676.3327624309392" width="132.31" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-112" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Computes the daily average flow (in m³/s), writes the results to output files&amp;nbsp;MESH_output_diversion.csv&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="657.16" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R1kGHZNwcuePNn_4owBy-111" target="R1kGHZNwcuePNn_4owBy-112" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-116" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry y="270" width="455" height="784.9999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-118" target="R1kGHZNwcuePNn_4owBy-131" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-118" value="run_between_grid_init" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="71.8421052631579" width="134.10526315789477" height="37.60479041916167" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-119" value="init_reservoirs(&#39;coeff_reserv.txt&#39;):&lt;div&gt;read zone-based storage configuration&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#CCFFCC;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="273" y="267.9341317365269" width="182.00000000000003" height="65.80838323353292" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-122" target="R1kGHZNwcuePNn_4owBy-119" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-121" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="R1kGHZNwcuePNn_4owBy-120" vertex="1" connectable="0">
+          <mxGeometry x="-0.0564" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-122" value="RESERVOIRFLAG == 2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="52.68421052631581" y="267.9341317365269" width="158.0526315789474" height="65.80838323353292" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-124" target="R1kGHZNwcuePNn_4owBy-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138.89473684210526" y="465.3592814371257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-124" value="Call Processes:&lt;div&gt;&lt;div&gt;WF_ROUTE_init&amp;nbsp;(fls, shd)&lt;/div&gt;&lt;div&gt;run_rte_init&amp;nbsp;(fls, shd)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; runci_between_grid_init&amp;nbsp;(fls, shd)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE599;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="33.52631578947369" y="371.34730538922156" width="210.7368421052632" height="65.80838323353292" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-125" value="Find the x-y cell coordinate of the locations of diversions" style="whiteSpace=wrap;html=1;rounded=1;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="268.21" y="463.4790419161676" width="153.26315789473685" height="75.20958083832333" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-127" target="R1kGHZNwcuePNn_4owBy-128" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-127" value="call run_within_grid_stas_basin_update:&lt;div&gt;update basin variables&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#CCFFCC;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry y="628" width="220.31578947368425" height="75.20958083832333" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-128" value="end subroutine" style="whiteSpace=wrap;html=1;rounded=1;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="52.68421052631581" y="728.5928143712574" width="114.94736842105263" height="56.40718562874251" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="R1kGHZNwcuePNn_4owBy-116" target="R1kGHZNwcuePNn_4owBy-122" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="137.9368421052632" y="239.7305389221557" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-131" target="R1kGHZNwcuePNn_4owBy-132" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-131" value="Initialize variables and parameters e.g. fls, shd, cm, etc." style="rounded=1;whiteSpace=wrap;html=1;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="71.8421052631579" y="70.50898203592811" width="134.10526315789477" height="56.40718562874251" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-132" value="head node and&amp;nbsp;&lt;div&gt;ro%RUNGRID == True&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="43.10526315789475" y="155.11976047904193" width="182.00000000000003" height="84.61077844311376" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-122" target="R1kGHZNwcuePNn_4owBy-124" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-137" target="R1kGHZNwcuePNn_4owBy-127" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-137" target="R1kGHZNwcuePNn_4owBy-125" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-136" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="R1kGHZNwcuePNn_4owBy-135" vertex="1" connectable="0">
+          <mxGeometry x="-0.0889" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-137" value="Read&amp;nbsp;diversion.txt stored in variable:&amp;nbsp;fn_div if exists" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="9.578947368421048" y="468.17964071856284" width="201.15789473684214" height="94.01197604790418" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-138" value="Skip to simulation start date" style="whiteSpace=wrap;html=1;rounded=1;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="275.3942105263158" y="646.8011976047903" width="138.89473684210526" height="56.40718562874251" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-138" target="R1kGHZNwcuePNn_4owBy-127" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-140" value="Find RANK at the locations" style="whiteSpace=wrap;html=1;rounded=1;" parent="R1kGHZNwcuePNn_4owBy-116" vertex="1">
+          <mxGeometry x="287.3678947368421" y="562.1916167664671" width="114.94736842105263" height="56.40718562874251" as="geometry" />
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-140" target="R1kGHZNwcuePNn_4owBy-138" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324.6547368421053" y="526.8834131736526" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1kGHZNwcuePNn_4owBy-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="R1kGHZNwcuePNn_4owBy-116" source="R1kGHZNwcuePNn_4owBy-125" target="R1kGHZNwcuePNn_4owBy-140" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535.4266666666665" y="489.27862275449127" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
