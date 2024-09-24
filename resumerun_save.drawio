@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.16">
+  <diagram name="Page-1" id="ROZquSnpiP_c0AMkIccm">
+    <mxGraphModel dx="1666" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-1" value="resumerun_save.f90" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
+          <mxGeometry x="412.9" width="157" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Dependencies:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Modules\climate_forcing_module\climate_forcing_module.f90: climate_module_resume_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;LSS_Model\CLASS\3.6\sa_mesh_process\RUNCLASS36_config.f90: save_init_prog_variables_class&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;LSS_Model\CLASS\3.6\sa_mesh_process\save_init_prog_variables_class.f90: save_init_prog_variables_class&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;LSS_Model\SVS\svs1\src\runsvs_mesh.F90: runsvs_mesh_save_states_seq&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\baseflow_module\baseflow_module.f90: bflm_resume_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\WatRoute_old\WF_ROUTE_config.f90: WF_ROUTE_resume_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\RPN_watroute\sa_mesh_process\rte_module.f90: run_rte_resume_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Driver\MESH_Driver\save_basin_output.f90: run_save_basin_output_resume_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Modules\simulation_statistics\SIMSTATS.F90: stats_state_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;LSS_Model\CLASS\3.6\sa_mesh_process\RUNCLASS36_config.f90: save_init_prog_variables_class&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;LSS_Model\CLASS\3.6\sa_mesh_process\save_init_prog_variables_class.f90: save_init_prog_variables_class&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;LSS_Model\SVS\svs1\src\runsvs_mesh.F90: runsvs_mesh_save_states_seq&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\baseflow_module\baseflow_module.f90: bflm_resume_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\WatRoute_old\WF_ROUTE_config.f90: WF_ROUTE_resume_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Routing_Model\RPN_watroute\sa_mesh_process\rte_module.f90: run_rte_resume_save&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;LSS_Model\CLASS\3.6\sa_mesh_process\RUNCLASS36_config.f90: save_init_prog_variables_class_row&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;LSS_Model\SVS\svs1\src\runsvs_mesh.F90: runsvs_mesh_save_states_seq&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry y="50" width="370" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-4" value="resumerun_save(fls, shd, cm)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="420.08" y="70" width="191.49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uMg9ZEBWqNcEc148kzyk-5" target="uMg9ZEBWqNcEc148kzyk-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-1" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMg9ZEBWqNcEc148kzyk-8">
+          <mxGeometry x="-0.3331" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-5" value="Is head node &amp;amp;&amp;nbsp;vs%flgs%save%state" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="397.26" y="130" width="242.77" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uMg9ZEBWqNcEc148kzyk-4" target="uMg9ZEBWqNcEc148kzyk-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uMg9ZEBWqNcEc148kzyk-7" target="uMg9ZEBWqNcEc148kzyk-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="517.9000000000001" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uMg9ZEBWqNcEc148kzyk-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.501" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-7" value="Check if now is the time for the I/O operation" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="372.64" y="230" width="292" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-11" value="Save the run state to file in txt format&lt;div&gt;&amp;nbsp;in&amp;nbsp;&lt;b&gt;MESH_variables.txt&lt;/b&gt;&lt;/div&gt;&lt;div&gt;e.g.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;write(iun, &#39;(a)&#39;) &#39;!&amp;lt; BASINCELLS&#39;, etc.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680.0799999999999" y="290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uMg9ZEBWqNcEc148kzyk-13" target="uMg9ZEBWqNcEc148kzyk-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uMg9ZEBWqNcEc148kzyk-13" target="uMg9ZEBWqNcEc148kzyk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-15" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p-lcKI423tdOwHyLHVoN-14">
+          <mxGeometry x="-0.2381" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-13" value="Check if the File Format is Text" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="412.9" y="325" width="205.82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="uMg9ZEBWqNcEc148kzyk-15" target="uMg9ZEBWqNcEc148kzyk-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMg9ZEBWqNcEc148kzyk-18">
+          <mxGeometry x="-0.2816" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uMg9ZEBWqNcEc148kzyk-15" target="p-lcKI423tdOwHyLHVoN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-15" value="Check if the File Format&lt;div&gt;&amp;nbsp;is Sequential binary&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="409.41999999999996" y="404" width="212.79" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-17" value="&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="664" y="380" width="380" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uMg9ZEBWqNcEc148kzyk-22" target="uMg9ZEBWqNcEc148kzyk-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-22" value="Save the resume date to a file named auto_resume.ini based on frequency flags" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="437.93" y="585" width="161.43" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMg9ZEBWqNcEc148kzyk-23" value="end subroutine" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="462.08" y="670" width="113.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-lcKI423tdOwHyLHVoN-2" target="p-lcKI423tdOwHyLHVoN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-9" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p-lcKI423tdOwHyLHVoN-5">
+          <mxGeometry x="0.1059" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p-lcKI423tdOwHyLHVoN-2" target="uMg9ZEBWqNcEc148kzyk-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-2" value="Check if the File Format&lt;div&gt;&amp;nbsp;is NETCDF&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F19C99;" vertex="1" parent="1">
+          <mxGeometry x="420.45000000000005" y="490" width="196.39" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-4" value="1. Save the run state to file in NETCDF format&lt;div&gt;&amp;nbsp;in&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;MESH_initial_values.nc&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Append date to the default filename&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call save_initial_states_nc&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;2.&amp;nbsp;Writing Zone Storage Data in &lt;b&gt;zone_storage_states*.txt&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="427.5" width="178" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="p-lcKI423tdOwHyLHVoN-16" value="&lt;div&gt;1. Append date to the default filename&lt;/div&gt;&lt;div&gt;2. if &#39;+STASONLY&#39; &amp;amp; +CLASSPROG not in vs%flgs%save%bin:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call climate_module_resume_save(fls, shd, cm)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call save_init_prog_variables_class(fls, shd)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call runsvs_mesh_save_states_seq(fls, shd)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call bflm_resume_save(fls, shd)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call WF_ROUTE_resume_save(fls, shd)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call run_rte_resume_save(fls, shd)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call run_save_basin_output_resume_save(fls, shd)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;call stats_state_save(fls)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Writing Zone Storage Data in zone_storage_states*.txt&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. else if&amp;nbsp;&lt;/span&gt;&amp;nbsp;+CLASSPROG not in vs%flgs%save%bin:&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;call save_init_prog_variables_class(fls, shd)&lt;/li&gt;&lt;li&gt;call runsvs_mesh_save_states_seq(fls, shd)&lt;/li&gt;&lt;li&gt;call bflm_resume_save(fls, shd)&lt;/li&gt;&lt;li&gt;call WF_ROUTE_resume_save(fls, shd)&lt;/li&gt;&lt;li&gt;call run_rte_resume_save(fls, shd)&lt;/li&gt;&lt;li&gt;Writing Zone Storage Data in zone_storage_states*.txt&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;4. else&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;call save_init_prog_variables_class_row(fls, shd)&lt;/li&gt;&lt;li&gt;call runsvs_mesh_save_states_seq(fls, shd)&lt;/li&gt;&lt;/ul&gt;5. Update filename to&amp;nbsp;&lt;b&gt;fname&lt;/b&gt; based on frequency of saving data&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690.0799999999999" y="404" width="349.92" height="355" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
