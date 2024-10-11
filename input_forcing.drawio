@@ -38,19 +38,19 @@
         <mxCell id="9gJv6co2nd8RYt-IVOKr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9gJv6co2nd8RYt-IVOKr-27" source="9gJv6co2nd8RYt-IVOKr-5" target="9gJv6co2nd8RYt-IVOKr-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9gJv6co2nd8RYt-IVOKr-5" value="&amp;nbsp;call open_input_file(forcing_files(i)%file)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
+        <mxCell id="9gJv6co2nd8RYt-IVOKr-5" value="&amp;nbsp;call open_input_file(forcing_files(i)%file)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#FFE599;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
           <mxGeometry x="40.64000000000004" y="160" width="239.39" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9gJv6co2nd8RYt-IVOKr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9gJv6co2nd8RYt-IVOKr-27" source="9gJv6co2nd8RYt-IVOKr-7" target="9gJv6co2nd8RYt-IVOKr-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9gJv6co2nd8RYt-IVOKr-7" value="call validate_input_file_spatial_reference (forcing_files(i)%file)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
+        <mxCell id="9gJv6co2nd8RYt-IVOKr-7" value="call validate_input_file_spatial_reference (forcing_files(i)%file)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#FFE599;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
           <mxGeometry x="36.210000000000036" y="230" width="248.26" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9gJv6co2nd8RYt-IVOKr-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9gJv6co2nd8RYt-IVOKr-27" source="9gJv6co2nd8RYt-IVOKr-9" target="9gJv6co2nd8RYt-IVOKr-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9gJv6co2nd8RYt-IVOKr-9" value="call read_file_fields_to_buffer (forcing_files(i)%file" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
+        <mxCell id="9gJv6co2nd8RYt-IVOKr-9" value="call read_file_fields_to_buffer (forcing_files(i)%file" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#FFE599;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
           <mxGeometry x="64.74000000000001" y="300" width="191.2" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9gJv6co2nd8RYt-IVOKr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9gJv6co2nd8RYt-IVOKr-27" source="9gJv6co2nd8RYt-IVOKr-11" target="9gJv6co2nd8RYt-IVOKr-13" edge="1">
@@ -62,13 +62,13 @@
         <mxCell id="9gJv6co2nd8RYt-IVOKr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9gJv6co2nd8RYt-IVOKr-27" source="9gJv6co2nd8RYt-IVOKr-13" target="9gJv6co2nd8RYt-IVOKr-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9gJv6co2nd8RYt-IVOKr-13" value="call cleanup_field_list (forcing_files(i)%file%fields" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
+        <mxCell id="9gJv6co2nd8RYt-IVOKr-13" value="call cleanup_field_list (forcing_files(i)%file%fields" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#FFE599;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
           <mxGeometry x="75" y="455" width="172.8" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9gJv6co2nd8RYt-IVOKr-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9gJv6co2nd8RYt-IVOKr-27" source="9gJv6co2nd8RYt-IVOKr-15" target="9gJv6co2nd8RYt-IVOKr-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9gJv6co2nd8RYt-IVOKr-15" value="call activate_variables_from_field_list (forcing_files(i)%file%fields" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
+        <mxCell id="9gJv6co2nd8RYt-IVOKr-15" value="call activate_variables_from_field_list (forcing_files(i)%file%fields" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#FFE599;" parent="9gJv6co2nd8RYt-IVOKr-27" vertex="1">
           <mxGeometry x="60" y="530" width="202.8" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9gJv6co2nd8RYt-IVOKr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9gJv6co2nd8RYt-IVOKr-27" source="9gJv6co2nd8RYt-IVOKr-17" target="9gJv6co2nd8RYt-IVOKr-19" edge="1">
