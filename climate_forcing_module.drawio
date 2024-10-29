@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
+  <diagram name="Page-1" id="40JP3004lwVQ456rJSQr">
+    <mxGraphModel dx="1666" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xs0cNufhSSzqABKfh5tj-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xs0cNufhSSzqABKfh5tj-6" target="xs0cNufhSSzqABKfh5tj-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510.73" y="185" width="479.27" height="665" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-1" value="climate_forcing_module.f90" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
+          <mxGeometry x="373" y="30" width="157" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Dependencies:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Modules\climate_forcing_module\climate_forcing_module_config.f90: open_config&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;Modules\strings\stringmod.f90: value&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gjtsBgutIwh0DFXLV8dr-4" target="gjtsBgutIwh0DFXLV8dr-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-4" value="climate_module_init(fls, shd, ii1, ii2, cm) result(ENDDATA)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="122.48000000000002" y="120" width="248.51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gjtsBgutIwh0DFXLV8dr-6" target="gjtsBgutIwh0DFXLV8dr-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-6" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Set the default file name and map the climate GRD/GAT/GRU variables to &#39;vs&#39; for each basin_shortwave,&amp;nbsp;basin_rain, etc.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;e.g.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: 400;&quot;&gt;cm%dat(ck%FB)%GRD =&amp;gt; vs%grid%fsin(1:shd%NA)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="114.75" y="180" width="263.51" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gjtsBgutIwh0DFXLV8dr-8" target="gjtsBgutIwh0DFXLV8dr-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-8" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;!&amp;gt; Read from file to override default configuration&lt;/span&gt;&lt;br&gt;&lt;/div&gt;call open_config(cm)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#FFE599;" parent="1" vertex="1">
+          <mxGeometry x="153.54000000000002" y="300" width="186.39" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-10" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;!&amp;gt; Allocate GRD/GAT/GRU variables for MET&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;e.g.&amp;nbsp;allocate(cm%dat(ck%MET)%GRD(shd%NA)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="109.79000000000002" y="400" width="273.89" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gjtsBgutIwh0DFXLV8dr-10" target="gjtsBgutIwh0DFXLV8dr-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-32" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="2.842170943040401e-14" y="500" width="512.97" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="46.73" width="400" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-14" value="do vid = 1, cm%nclim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="42.73" y="13" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="gjtsBgutIwh0DFXLV8dr-32" source="gjtsBgutIwh0DFXLV8dr-16" target="gjtsBgutIwh0DFXLV8dr-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-16" value="&lt;div&gt;Check that cm(vid) is active&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="174.06" y="20" width="181.95" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="gjtsBgutIwh0DFXLV8dr-32" source="gjtsBgutIwh0DFXLV8dr-17" target="gjtsBgutIwh0DFXLV8dr-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;If&lt;/b&gt; 1. file in legacy binary format, forcing record &amp;lt; model time-step, or time-step not divisible by model time-step:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;abort program&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="138.3" y="100" width="257.71" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="gjtsBgutIwh0DFXLV8dr-32" source="gjtsBgutIwh0DFXLV8dr-19" target="gjtsBgutIwh0DFXLV8dr-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-19" value="If an unsupported ipflg (interpolation) flag is set, a warning is issued, and the flag is reset to 0" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="182.72999999999996" y="220" width="168.86" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="gjtsBgutIwh0DFXLV8dr-32" source="gjtsBgutIwh0DFXLV8dr-21" target="gjtsBgutIwh0DFXLV8dr-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-21" value="If the time-step of the data matches the model, interpolation has no effect and the flag ipflg&amp;nbsp;&amp;nbsp;is reset" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="182.72999999999996" y="320" width="168.86" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gjtsBgutIwh0DFXLV8dr-32" source="gjtsBgutIwh0DFXLV8dr-23" target="gjtsBgutIwh0DFXLV8dr-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266.7099999999998" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-23" value="Activate fields for INTERPOLATIONFLAG" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="196.66999999999996" y="420" width="140.98" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="gjtsBgutIwh0DFXLV8dr-32" source="gjtsBgutIwh0DFXLV8dr-29" target="gjtsBgutIwh0DFXLV8dr-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-29" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;1. Skip to the simulation start date&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2. If the first record in the data occurs after the simulation start date,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;abort program&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="138.3" y="500" width="257.71" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-30" value="If simulation&#39;s start date occurs after the first record in the climate data file, records are skipped to align the data with the simulation" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;" parent="gjtsBgutIwh0DFXLV8dr-32" vertex="1">
+          <mxGeometry x="168.44" y="620" width="197.45" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gjtsBgutIwh0DFXLV8dr-12" target="gjtsBgutIwh0DFXLV8dr-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="246.5" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gjtsBgutIwh0DFXLV8dr-36" target="gjtsBgutIwh0DFXLV8dr-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-36" value="&lt;div&gt;if (DIAGNOSEMODE)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="155.75" y="1230" width="181.95" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gjtsBgutIwh0DFXLV8dr-37" target="gjtsBgutIwh0DFXLV8dr-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-37" value="Print a summary of the climate forcing variables" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="179.58999999999997" y="1310" width="134.26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gjtsBgutIwh0DFXLV8dr-39" value="end function" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="189.94" y="1380" width="113.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_aLPwz6OuQD9nrlHEwq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s_aLPwz6OuQD9nrlHEwq-1" target="s_aLPwz6OuQD9nrlHEwq-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_aLPwz6OuQD9nrlHEwq-1" value="climate_module_finalize(fls, shd, cm)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="630" y="1040" width="248.51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s_aLPwz6OuQD9nrlHEwq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s_aLPwz6OuQD9nrlHEwq-3" target="s_aLPwz6OuQD9nrlHEwq-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_aLPwz6OuQD9nrlHEwq-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;It is supposed to clean up and finalize resources used by the climate module. Currently does not perform any tasks.&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="667.45" y="1090" width="172.55" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s_aLPwz6OuQD9nrlHEwq-5" value="end subroutine" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="697.69" y="1180" width="113.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xs0cNufhSSzqABKfh5tj-2" target="xs0cNufhSSzqABKfh5tj-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="654" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-2" value="climate_module_update_data(fls, shd, ii1, ii2, cm)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="626.11" y="120" width="248.51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-5" value="end function" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="704.21" y="950" width="92.31" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-7" value="do vid = 1, cm%nclim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="512.97" y="190" width="117.03" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs0cNufhSSzqABKfh5tj-8" target="xs0cNufhSSzqABKfh5tj-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-8" value="&lt;div&gt;Check that cm(vid) is active&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="563.28" y="220" width="186.72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-14" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="553.67" y="280" width="205.94" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-10" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If at first timestep and interpolation is enabled:&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="xs0cNufhSSzqABKfh5tj-14" vertex="1">
+          <mxGeometry width="205.94000000000008" height="110.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-13" value="&lt;div&gt;if (ic%ts_count == 1 .and. cm%dat(vid)%ipflg == 1)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="xs0cNufhSSzqABKfh5tj-14" vertex="1">
+          <mxGeometry x="1.9100000000000001" y="43.83" width="204.03" height="64.17" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs0cNufhSSzqABKfh5tj-15" target="xs0cNufhSSzqABKfh5tj-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-15" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Read and update data from the input forcing file via the update_data function&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="778.51" y="425" width="193.66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs0cNufhSSzqABKfh5tj-17" target="xs0cNufhSSzqABKfh5tj-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xs0cNufhSSzqABKfh5tj-17" target="xs0cNufhSSzqABKfh5tj-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-17" value="&lt;div&gt;if (cm%dat(vid)%itimestep == 0)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="558.28" y="420" width="196.72" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xs0cNufhSSzqABKfh5tj-10" target="xs0cNufhSSzqABKfh5tj-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs0cNufhSSzqABKfh5tj-20" target="xs0cNufhSSzqABKfh5tj-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-20" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Apply conditions to the series of data if conditions exist:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;call value()&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFE599;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="790.3199999999999" y="500" width="170.04" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-22" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;!&amp;gt;Update interpolation fields&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;cm%dat(vid)%ipdat&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="795.59" y="590" width="159.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-24" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Read an additional frame&amp;nbsp; and update input fonrcing data&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="795.5899999999999" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs0cNufhSSzqABKfh5tj-10" target="xs0cNufhSSzqABKfh5tj-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs0cNufhSSzqABKfh5tj-28" target="xs0cNufhSSzqABKfh5tj-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-28" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Perform Interpolation of Data Values&amp;nbsp;using linear interpolation between two data points&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="572.57" y="500" width="167.43" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs0cNufhSSzqABKfh5tj-31" target="xs0cNufhSSzqABKfh5tj-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-31" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Extract and assign data based on Block Type (cm%dat(vid)%blocktype)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;case 1:&amp;nbsp;GRD (Grid-based data)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;case 2:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;GRU&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 400; background-color: initial;&quot;&gt;case 3: &lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: initial;&quot;&gt;GAT (Land element)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="555.43" y="590" width="201.72" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xs0cNufhSSzqABKfh5tj-33" target="xs0cNufhSSzqABKfh5tj-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-33" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;The time step is incremented, and if it reaches the maximum timestep, it is reset to zero&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="571.62" y="710" width="170.04" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-35" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Advance to the Next Data Block (if needed)&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="577.45" y="790" width="158.38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs0cNufhSSzqABKfh5tj-37" target="xs0cNufhSSzqABKfh5tj-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs0cNufhSSzqABKfh5tj-37" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Special condition:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Advance line if &#39;MET&#39; format file is active&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="665.95" y="880" width="168.83" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
